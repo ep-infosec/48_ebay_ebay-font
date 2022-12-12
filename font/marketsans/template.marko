@@ -1,0 +1,14 @@
+<style nonce=data.nonce>
+    .font-marketsans body {
+        font-family: "Market Sans", Arial, sans-serif;
+    }
+</style>
+<script nonce=data.nonce>
+    (function() {
+        var useCustomFont = ('fontDisplay' in document.documentElement.style) ||
+                        (localStorage && localStorage.getItem('ebay-font'));
+        if (useCustomFont) {
+            document.documentElement.classList.add('font-marketsans');
+        }
+    })();
+</script>

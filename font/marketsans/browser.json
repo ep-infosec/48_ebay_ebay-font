@@ -1,0 +1,6 @@
+{
+    "dependencies": [
+        "require-run: ./fontloader.js",
+        "@ebay/skin/marketsans"
+    ]
+}
